@@ -1,0 +1,23 @@
+/* Estilos que se cumplen en la version mobile */
+
+@media screen and (max-width: 768px) {
+  .col-9{
+    width: 100%;
+  }
+  .col-3{
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  #main {
+     display: none;
+   }
+/* hace visible el icono del menu */
+   .icono-menu {
+      display: block;
+       float: right;
+       margin-right: 40px;
+       margin-top: 10px;
+     }
+}
